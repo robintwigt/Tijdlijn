@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 10px;
+  font-family: "Avenir Next";
+  font-size: 32px;
+}
+
+
+
+/*Alles wat hieronder staat geldt alleen wanneer de website bekeken wordt op een mobiel*/
+@media only screen and (min-width: 0px) and (max-width: 499px){
+  .container {
+    margin-top: 70px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .divjaartal {
+    overflow: hidden;
+    flex-basis: 20%;
+  }
+
+  .divfoto {
+    overflow: hidden;
+    flex-basis: 60%;
+  }
+
+  .tekst {
+    flex-basis: 90%;
+    margin-bottom: 20px;
+    margin-top: -10px;
+  }
+
+  .imgjaartal {
+    height: 160px;
+  }
+
+  .imgfoto {
+    height: 160px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    font-family: "Din Alternate";
+    font-size: 24px;
+  }
+
+  p {
+    margin-top: 10px;
+    font-family: "Lato";
+    font-size: 14px;
+  }
+}
+
+
+
+/*Alles wat hieronder staat geldt alleen wanneer de website bekeken wordt op een tablet*/
+@media only screen and (min-width: 500px) and (max-width: 899px){
+  .container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 70px;
+  }
+
+  .divjaartal {
+    overflow: hidden;
+    flex-basis: 20%;
+    margin-left: 8%;
+  }
+
+  .divfoto {
+    overflow: hidden;
+    flex-basis: 55%;
+    margin-left: 3%;
+  }
+
+  .tekst {
+    flex-basis: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    margin-top: -10px;
+  }
+
+  .imgjaartal {
+    height: 180px;
+  }
+
+  .imgfoto {
+    height: 180px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    font-family: "Din Alternate";
+    font-size: 26px;
+  }
+
+  p {
+    margin-top: 10px;
+    font-family: "Lato";
+    font-size: 16px;
+  }
+}
+
+
+
+/*Alles wat hieronder staat geldt alleen wanneer de website bekeken wordt op een kleine computer*/
+@media only screen and (min-width: 900px) and (max-width: 1299px){
+    .container {
+    max-width: 1300px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 70px;
+  }
+
+  .divjaartal {
+    overflow: hidden;
+    flex-basis: 15%;
+  }
+
+  .divfoto {
+    overflow: hidden;
+    flex-basis: 30%;
+  }
+
+  .tekst {
+    flex-basis: 43%;
+    margin-left: 2%;
+    margin-top: -10px;
+  }
+
+  .imgjaartal {
+    height: 200px;
+  }
+
+  .imgfoto {
+    height: 200px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    font-family: "Din Alternate";
+    font-size: 28px;
+  }
+
+  p {
+    margin-top: 10px;
+    font-family: "Lato";
+    font-size: 18px;
+  }
+}
+
+
+
+/*Alles wat hieronder staat geldt alleen wanneer de website bekeken wordt op een grote computer*/
+@media only screen and (min-width: 1300px) {
+    .container {
+    max-width: 1300px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 70px;
+  }
+
+  .divjaartal {
+    overflow: hidden;
+    flex-basis: 15%;
+  }
+
+  .divfoto {
+    overflow: hidden;
+    flex-basis: 30%;
+  }
+
+  .tekst {
+    flex-basis: 43%;
+    margin-left: 2%;
+  }
+
+  .imgjaartal {
+    height: 250px;
+  }
+
+  .imgfoto {
+    height: 250px;
+  }
+
+  h2 {
+    margin-bottom: 0;
+    font-family: "Din Alternate";
+    font-size: 30px;
+  }
+
+  p {
+    margin-top: 10px;
+    font-family: "Lato";
+    font-size: 20px;
+  }
+}
